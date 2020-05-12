@@ -1,0 +1,24 @@
+@import "01-variables";
+// Initial setup
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $bgColor;
+  min-height: 100vh;
+  font-size: 16px;
+  line-height: 1.425;
+  font-family: $txtFontStack;
+  color: $txtColor;
+}
+
+a {
+  color: $linkColor;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 68.75rem;
+  padding: 0 1rem;
+}

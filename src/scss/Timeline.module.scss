@@ -1,0 +1,57 @@
+@import "01-variables";
+
+// Timeline styling
+.tm {
+    min-height: 100vh;
+    position: relative;
+
+    &__line {
+        position: absolute;
+        width: 2px;
+        top: 0;
+        bottom: 0;
+        left: 100%;
+        transform: translateX(-3rem);
+        background-color: lighten($txtColor, 80%);
+        z-index: -1;
+    }
+
+    &__time-unit {
+        position: relative;
+        min-height: 15rem;
+        margin-top: 3rem;
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+    
+    &__label {
+        color: $bgColor;
+        font-family: $timeFontStack;
+        font-weight: bold;
+        font-size: 2rem;
+        line-height: 1;
+        transform: rotate(-90deg);
+        transform-origin: 100% 0;
+        position: absolute;
+        top: 0;
+        right: 2rem;
+        max-width: 16rem;
+        text-align: right;
+        text-shadow: -1px -1px 0 rgba($linkColor, 0.6), 
+                      1px -1px 0 rgba($linkColor, 0.6), 
+                     -1px  1px 0 rgba($linkColor, 0.6), 
+                      1px  1px 0 rgba($linkColor, 0.6);
+        span {
+            font-size: 1rem;
+            color: rgba($txtColor, 0.3);
+            text-shadow: none;
+            vertical-align: baseline;
+        }
+    }
+    
+    &__events {
+        width: calc(100% - 3rem);
+        text-align: right;
+    }
+}

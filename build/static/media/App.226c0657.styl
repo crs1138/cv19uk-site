@@ -1,0 +1,31 @@
+// Vars
+$bgColor = #ffffff
+$txtColor = #444444
+$linkColor = #007ba8
+
+$bgColor ?= #001138
+$txtColor ?= #3fd100
+$linkColor ?= #ec008c
+$txtFontStack ?= 'Manuale', serif
+$headingFontStack ?= 'Roboto Slab', san-serif
+$timeFontStack ?= 'Fira Code', monospace
+
+// Initial setup
+*
+  box-sizing: border-box
+
+body
+  background-color: $bgColor
+  min-height: 100vh
+  font-size: 16px
+  line-height: 1.425
+  font-family: $txtFontStack
+  color: $txtColor
+
+a
+  color: $linkColor
+
+.container
+  margin: 0 auto
+  max-width: 68.75rem
+  padding: 0 1rem
