@@ -1,0 +1,37 @@
+@import "../scss/01-variables";
+
+.time_units {
+    list-style: none;
+    .time_unit {
+        position: relative;
+        min-height: 15rem;
+        margin-top: 3rem;
+        &:first-child {
+            margin-top: 0;
+        }
+        &__label {
+            color: $bgColor;
+            font-family: $timeFontStack;
+            font-weight: bold;
+            font-size: 2rem;
+            line-height: 1;
+            transform: rotate(-90deg);
+            transform-origin: 100% 0;
+            position: absolute;
+            top: 0;
+            right: 2rem;
+            max-width: 16rem;
+            text-align: right;
+            text-shadow: -1px -1px 0 rgba($linkColor, 0.6), 
+                          1px -1px 0 rgba($linkColor, 0.6), 
+                         -1px  1px 0 rgba($linkColor, 0.6), 
+                          1px  1px 0 rgba($linkColor, 0.6);
+            span {
+                font-size: 1rem;
+                color: rgba($txtColor, 0.3);
+                text-shadow: none;
+                vertical-align: baseline;
+            }
+        }
+    }
+}

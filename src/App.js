@@ -1,17 +1,18 @@
 import React from 'react';
-import Timeline from './Timeline';
-import './scss/App.scss';
+import Timeline from './Timeline/Timeline';
+import './App.scss';
 
 
 const testData = [
   {
     id: 1,
-    date: `December 31, 2019`,
-    heading: `China alerts World Health Organisation to new virus.`
+    date: `2019-12-30T23:00:00.000Z`,
+    heading: `China alerts World Health Organisation to new virus.`,
+    details: ``,
   },
   {
     id: 2,
-    date: `January 23, 2020`,
+    date: `2020-01-23T23:00:00.000Z`,
     heading: `Study reveals a third of China’s patients require intensive care.`,
     details: `Chinese government shuts down city of Wuhan.`,
     images: [
@@ -23,30 +24,52 @@ const testData = [
   },
   {
     id: 3,
-    date: `January 24, 2020`,
+    date: `2020-01-24T23:00:00.000Z`,
     heading: `Boris Johnson misses first COBRA meeting.`,
     details: `Chinese doctors publish an article - in English - in the respected British medical journal The Lancet, warning the world that the number of deaths in Wuhan was “rising quickly” amid concern that coronavirus “could have acquired the ability for efficient human transmission”.`,
   },
   {
     id: 4,
-    date: `January 27, 2020`,
-    heading: `January 27th Health Secretary Matt Hancock told parliament there were no confirmed coronavirus cases in the UK, and that the risk to the UK population was “low”.`
+    date: `2020-01-27T23:00:00.000Z`,
+    heading: `January 27th Health Secretary Matt Hancock told parliament there were no confirmed coronavirus cases in the UK, and that the risk to the UK population was “low”.`,
+    details: ``,
   },
   {
     id: 5,
-    date: `January 29, 2020`,
-    heading: `Boris Johnson misses second COBRA meeting.`
+    date: `2020-01-29T23:00:00.000Z`,
+    heading: `Boris Johnson misses second COBRA meeting.`,
+    details: ``,
   },
   {
     id: 6,
-    date: `January 30, 2020`,
-    heading: `WHO declares the outbreak a global public health emergency.`
+    date: `2020-01-30T23:00:00.000Z`,
+    heading: `WHO declares the outbreak a global public health emergency.`,
+    details: ``,
   },
   {
     id: 7,
-    date: `February 5, 2020`,
-    heading: `Boris Johnson misses third COBRA meeting.`
-  }
+    date: `2020-02-05T23:00:00.000Z`,
+    heading: `Boris Johnson misses third COBRA meeting.`,
+    details: ``,
+  },
+  {
+    id: 8,
+    date: `2020-03-12T23:00:00.000Z`,
+    heading: `Boris Johnson keeps missing…`,
+    details: ``,
+  },
+  {
+    id: 9,
+    date: `2020-04-24T23:00:00.000Z`,
+    heading: `Boris Johnson keeps missing…`,
+    details: ``,
+  },
+  {
+    id: 10,
+    date: `2020-05-05T23:00:00.000Z`,
+    heading: `Boris Johnson keeps missing…`,
+    details: ``,
+  },
 ];
 
 function App() {

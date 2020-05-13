@@ -1241,6 +1241,21 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==
 
+"@openfonts/fira-code_latin@^1.44.8":
+  version "1.44.8"
+  resolved "https://registry.yarnpkg.com/@openfonts/fira-code_latin/-/fira-code_latin-1.44.8.tgz#9c6e8c75e3c27e4b7cb964ba81115ad47a0cc6c3"
+  integrity sha512-74mTNhRY0KS2XVqApKQUfuu8ev/NScejwRgzFDx8xyVDHT6VV+hdTiKFFPCURmhX9VwNJKJ/iTKeF9r/cL+fMQ==
+
+"@openfonts/manuale_latin@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@openfonts/manuale_latin/-/manuale_latin-1.0.1.tgz#ae5250519208a2e0505198d2556679c2c6110b63"
+  integrity sha512-DawJ5wUcknQCHqqsfGmbeq/l2Z/sZ0tkxhuwnHCZpxJ+146K0YR4ndwfZvx/SFFFm3II2eq7lBPc183BrG3PMg==
+
+"@openfonts/roboto-slab_latin@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@openfonts/roboto-slab_latin/-/roboto-slab_latin-1.0.1.tgz#db58231186233cace5e74cdd891890870909a770"
+  integrity sha512-a7pwSeJvIhMUWoWxxwIQq9HKrlviixP5ELUIIUkId3gRnroaOiEb6sRSUt6Jp9Fp6EgUkA/45EhWF6jzx5bMLw==
+
 "@sheerun/mutationobserver-shim@^0.3.2":
   version "0.3.3"
   resolved "https://registry.yarnpkg.com/@sheerun/mutationobserver-shim/-/mutationobserver-shim-0.3.3.tgz#5405ee8e444ed212db44e79351f0c70a582aae25"
@@ -3514,6 +3529,11 @@ data-urls@^1.0.0, data-urls@^1.1.0:
     abab "^2.0.0"
     whatwg-mimetype "^2.2.0"
     whatwg-url "^7.0.0"
+
+dayjs@^1.8.26:
+  version "1.8.26"
+  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.8.26.tgz#c6d62ccdf058ca72a8d14bb93a23501058db9f1e"
+  integrity sha512-KqtAuIfdNfZR5sJY1Dixr2Is4ZvcCqhb0dZpCOt5dGEFiMzoIbjkTSzUb4QKTCsP+WNpGwUjAFIZrnZvUxxkhw==
 
 debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.0, debug@^2.6.9:
   version "2.6.9"

@@ -1,9 +1,11 @@
-@import "01-variables";
+@import "../scss/01-variables";
 
 // Timeline event style
 .events {
     width: calc(100% - 3rem);
     text-align: right;
+    list-style: none;
+    padding: 0;
 }
 
 .event {
@@ -33,8 +35,18 @@
         font-family: $headingFontStack;
         font-size: 1.5rem;
         line-height: 1.2;
+        margin-top: 0;
         margin-bottom: 0.5rem;
         color: $linkColor;
+    }
+    &__meta {
+        font-family: $timeFontStack;
+        color: $metaColor;
+        margin-bottom: .5rem;
+        p {
+            font-size: 0.75rem;
+            margin: 0;
+        }
     }
 }
 

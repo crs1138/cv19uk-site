@@ -1,4 +1,4 @@
-@import "01-variables";
+@import "./scss/01-variables";
 // Initial setup
 * {
   box-sizing: border-box;
@@ -15,6 +15,10 @@ body {
 
 a {
   color: $linkColor;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: $headingFontStack;
 }
 
 .container {
