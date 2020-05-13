@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import dayjs from 'dayjs';
 import advancedFormat from 'dayjs/plugin/advancedFormat';
 import relativeTime from 'dayjs/plugin/relativeTime';
@@ -25,5 +26,16 @@ function EventList({events, dayZero}) {
         </ul>
     );
 }
+EventList.propTypes = {
+    events: PropTypes.arrayOf(
+        PropTypes.shape({
+            id: PropTypes.string.isRequired,
+            date: PropTypes.string.isRequired,
+            heading: PropTypes.string.isRequired,
+            details: PropTypes.string,
+        })
+    ).isRequired,
+    dayZero: PropTypes.string.isRequired
+};
 
 export default EventList;

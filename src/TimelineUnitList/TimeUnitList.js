@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { v4 as uuidv4 } from 'uuid';
 import EventsList from '../EventsList/EventList';
 import styles from './TimeUnitList.module.scss';
@@ -73,5 +74,15 @@ function TimeUnitList({events}) {
         </ul>
     );
 }
+TimeUnitList.propTypes = {
+    events: PropTypes.arrayOf(
+        PropTypes.shape({
+          id: PropTypes.string.isRequired,
+          date: PropTypes.string.isRequired,
+          heading: PropTypes.string.isRequired,
+          details: PropTypes.string,
+        })
+      ).isRequired
+};
 
 export default TimeUnitList;
