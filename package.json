@@ -1,7 +1,8 @@
 {
   "name": "cv19-uk-timeline",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
+  "homepage": "https://crs1138.github.io/cv19-uk-timeline/",
   "dependencies": {
     "@openfonts/fira-code_latin": "^1.44.8",
     "@openfonts/manuale_latin": "^1.0.1",
@@ -11,6 +12,7 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "dayjs": "^1.8.26",
+    "gh-pages": "^2.2.0",
     "node-sass": "^4.14.1",
     "npm-run-all": "^4.1.5",
     "prop-types": "^15.7.2",
@@ -20,6 +22,8 @@
     "uuid": "^8.0.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
