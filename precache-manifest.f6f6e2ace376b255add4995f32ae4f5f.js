@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ee5499f6c9ff5c4f4a8266d9d171f500",
+    "revision": "9f13616e71addc0b514dbf570bfc1d00",
     "url": "/cv19-uk-timeline/index.html"
   },
   {
-    "revision": "5ed5861695ac6075a20f",
-    "url": "/cv19-uk-timeline/static/css/2.e9b0af77.chunk.css"
+    "revision": "f6cbfd1925f72a2eb81f",
+    "url": "/cv19-uk-timeline/static/css/2.95f65911.chunk.css"
   },
   {
-    "revision": "87ebcaff3f41ba801cfa",
-    "url": "/cv19-uk-timeline/static/css/main.ff61b1f0.chunk.css"
+    "revision": "a6f1812b809c472eadec",
+    "url": "/cv19-uk-timeline/static/css/main.0a7dc097.chunk.css"
   },
   {
-    "revision": "5ed5861695ac6075a20f",
-    "url": "/cv19-uk-timeline/static/js/2.5eb1325c.chunk.js"
+    "revision": "f6cbfd1925f72a2eb81f",
+    "url": "/cv19-uk-timeline/static/js/2.f67d1e96.chunk.js"
   },
   {
     "revision": "fbdb25c6a30511ca0525a561a8e4c009",
-    "url": "/cv19-uk-timeline/static/js/2.5eb1325c.chunk.js.LICENSE.txt"
+    "url": "/cv19-uk-timeline/static/js/2.f67d1e96.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "87ebcaff3f41ba801cfa",
-    "url": "/cv19-uk-timeline/static/js/main.d442107e.chunk.js"
+    "revision": "a6f1812b809c472eadec",
+    "url": "/cv19-uk-timeline/static/js/main.ce77e13e.chunk.js"
   },
   {
     "revision": "d3dce5058e54eeb58e6c",

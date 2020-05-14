@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/cv19-uk-timeline/static/css/main.ff61b1f0.chunk.css",
-    "main.js": "/cv19-uk-timeline/static/js/main.d442107e.chunk.js",
-    "main.js.map": "/cv19-uk-timeline/static/js/main.d442107e.chunk.js.map",
+    "main.css": "/cv19-uk-timeline/static/css/main.0a7dc097.chunk.css",
+    "main.js": "/cv19-uk-timeline/static/js/main.ce77e13e.chunk.js",
+    "main.js.map": "/cv19-uk-timeline/static/js/main.ce77e13e.chunk.js.map",
     "runtime-main.js": "/cv19-uk-timeline/static/js/runtime-main.92f21f21.js",
     "runtime-main.js.map": "/cv19-uk-timeline/static/js/runtime-main.92f21f21.js.map",
-    "static/css/2.e9b0af77.chunk.css": "/cv19-uk-timeline/static/css/2.e9b0af77.chunk.css",
-    "static/js/2.5eb1325c.chunk.js": "/cv19-uk-timeline/static/js/2.5eb1325c.chunk.js",
-    "static/js/2.5eb1325c.chunk.js.map": "/cv19-uk-timeline/static/js/2.5eb1325c.chunk.js.map",
+    "static/css/2.95f65911.chunk.css": "/cv19-uk-timeline/static/css/2.95f65911.chunk.css",
+    "static/js/2.f67d1e96.chunk.js": "/cv19-uk-timeline/static/js/2.f67d1e96.chunk.js",
+    "static/js/2.f67d1e96.chunk.js.map": "/cv19-uk-timeline/static/js/2.f67d1e96.chunk.js.map",
     "index.html": "/cv19-uk-timeline/index.html",
-    "precache-manifest.177b66b24fd55ea365db5aba0a6d2cc9.js": "/cv19-uk-timeline/precache-manifest.177b66b24fd55ea365db5aba0a6d2cc9.js",
+    "precache-manifest.f6f6e2ace376b255add4995f32ae4f5f.js": "/cv19-uk-timeline/precache-manifest.f6f6e2ace376b255add4995f32ae4f5f.js",
     "service-worker.js": "/cv19-uk-timeline/service-worker.js",
-    "static/css/2.e9b0af77.chunk.css.map": "/cv19-uk-timeline/static/css/2.e9b0af77.chunk.css.map",
-    "static/css/main.ff61b1f0.chunk.css.map": "/cv19-uk-timeline/static/css/main.ff61b1f0.chunk.css.map",
-    "static/js/2.5eb1325c.chunk.js.LICENSE.txt": "/cv19-uk-timeline/static/js/2.5eb1325c.chunk.js.LICENSE.txt",
-    "static/media/App.scss": "/cv19-uk-timeline/static/media/roboto-slab-latin-900.c3cea20f.woff2"
+    "static/css/2.95f65911.chunk.css.map": "/cv19-uk-timeline/static/css/2.95f65911.chunk.css.map",
+    "static/css/main.0a7dc097.chunk.css.map": "/cv19-uk-timeline/static/css/main.0a7dc097.chunk.css.map",
+    "static/js/2.f67d1e96.chunk.js.LICENSE.txt": "/cv19-uk-timeline/static/js/2.f67d1e96.chunk.js.LICENSE.txt",
+    "static/media/Timeline.module.scss": "/cv19-uk-timeline/static/media/roboto-slab-latin-900.c3cea20f.woff2"
   },
   "entrypoints": [
     "static/js/runtime-main.92f21f21.js",
-    "static/css/2.e9b0af77.chunk.css",
-    "static/js/2.5eb1325c.chunk.js",
-    "static/css/main.ff61b1f0.chunk.css",
-    "static/js/main.d442107e.chunk.js"
+    "static/css/2.95f65911.chunk.css",
+    "static/js/2.f67d1e96.chunk.js",
+    "static/css/main.0a7dc097.chunk.css",
+    "static/js/main.ce77e13e.chunk.js"
   ]
 }
