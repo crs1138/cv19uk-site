@@ -1,0 +1,63 @@
+@import "../scss/01-variables";
+
+// Timeline event style
+.events {
+    width: calc(100% - 3rem);
+    text-align: right;
+    list-style: none;
+    padding: 0;
+}
+
+.event {
+    padding: 1rem 0;
+    padding-right: 2rem;
+    position: relative;
+    &::after {
+        content: '';
+        width: 1rem;
+        height: 1rem;
+        background-color: $linkColor;
+        position: absolute;
+        top: 1.5rem;
+        right: calc(-0.5rem - 1px);
+        transform: rotate(45deg);
+        animation-duration: 1.5s;
+        animation-name: microEvent;
+        animation-iteration-count: infinite;
+        animation-delay: 0;
+    }
+    &:nth-child(odd) {
+        &::after {
+            animation-delay: 0.75s;
+        }
+    }
+    &__heading {
+        font-family: $headingFontStack;
+        font-size: 1.5rem;
+        line-height: 1.2;
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+        color: $linkColor;
+    }
+    &__meta {
+        font-family: $timeFontStack;
+        color: $metaColor;
+        margin-bottom: .5rem;
+        p {
+            font-size: 0.75rem;
+            margin: 0;
+        }
+    }
+}
+
+
+
+@keyframes microEvent {
+    from {
+        box-shadow: 0 0 0 rgba($linkColor, 0.5);
+    }
+    
+    to {
+        box-shadow: 0 0 1rem 0.5rem rgba($linkColor, 0.1)
+    }
+}

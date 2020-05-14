@@ -1,0 +1,18 @@
+@import "../scss/01-variables";
+
+// Timeline styling
+.tm {
+    min-height: 100vh;
+    position: relative;
+
+    &__line {
+        position: absolute;
+        width: 2px;
+        top: 0;
+        bottom: 0;
+        left: 100%;
+        transform: translateX(-3rem);
+        background-color: $lineColor;
+        z-index: -1;
+    }
+}

@@ -1,0 +1,14 @@
+@import "~@openfonts/manuale_latin/index.css";
+@import "~@openfonts/roboto-slab_latin/index.css";
+@import "~@openfonts/fira-code_latin/index.css";
+
+// Vars
+$bgColor:   #ffffff;
+$txtColor:  #444444;
+$metaColor: #999999;
+$linkColor: #007ba8;
+$lineColor: #ececec;
+
+$txtFontStack: 'Manuale', serif;
+$headingFontStack: 'Roboto Slab', san-serif;
+$timeFontStack: 'Fira Code', monospace;
