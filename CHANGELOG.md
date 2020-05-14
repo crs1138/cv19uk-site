@@ -8,6 +8,7 @@ project. The changelog is following [Semantic Verisoning](https://semver.org/)
 ### Added
 
 * Added spinner whilst loading data
+* Added _source_ and _published by_ output to the events list
 
 ## [0.1.1] (2020-05-14)
 

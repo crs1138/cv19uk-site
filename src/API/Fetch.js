@@ -15,9 +15,6 @@ function useEvents(query = fetchAllQuery) {
 
         async function fetchEvents() {
             const response = await client.fetch( query )
-            console.dir(response);
-            // const json = await response.json();
-            // console.dir(json);
     
             setEvents(response);
             setLoading(false);

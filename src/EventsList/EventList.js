@@ -15,13 +15,25 @@ function EventList({events, dayZero}) {
         <ul className={styles.events}>
             {
                 events.map( event => {
-                    const {heading, details, date, _id: id} = event;
+                    const {
+                        _id: id, 
+                        heading, 
+                        details, 
+                        date, 
+                        authorName,
+                        source,
+                    } = event;
                     const dateObj = dayjs(date);
                     return (
                         <li className={styles.event} key={id}>
                             <h2 className={styles.event__heading}>{ heading }</h2>
-                            <div className={styles.event__meta}>{dateObj.format(`MMMM Do, YYYY`)} <p>{date === dayZero ? `Day 0` : `~${dateObj.from(dayZero, true)} since day\u00A00`}</p></div>
-                            {!!details && details}
+                            <div className={styles.event__meta}>
+                                {dateObj.format(`MMMM Do, YYYY`)} 
+                                <p>{date === dayZero ? `Day 0` : `~${dateObj.from(dayZero, true)} since day\u00A00`}</p>
+                                <p>Source: {undefined !== source ? source : `unknown`}</p>
+                                <p>Added by: {undefined !== authorName ? authorName : `anonymous`}</p>
+                            </div>
+                            { undefined !== details && details}
                         </li>
                     );
                 })
@@ -36,6 +48,7 @@ EventList.propTypes = {
             date: PropTypes.string.isRequired,
             heading: PropTypes.string.isRequired,
             details: PropTypes.string,
+            authorName: PropTypes.string,
         })
     ).isRequired,
     dayZero: PropTypes.string.isRequired
