@@ -1,0 +1,15 @@
+
+TODO:
+  @file:///Users/janpozivil/Sites/cv19-uk-timeline/src/API/Queries.js
+    ☐ // @todo add details to the query @file:///Users/janpozivil/Sites/cv19-uk-timeline/src/API/Queries.js#1
+  @file:///Users/janpozivil/Sites/cv19-uk-timeline/src/App.js
+    ✔ // @todo Add spinner @file:///Users/janpozivil/Sites/cv19-uk-timeline/src/App.js#15 @done(20-05-14 23:17)
+  @file:///Users/janpozivil/Sites/cv19-uk-timeline/src/App.test.js
+    ☐ // @todo create sensible tests @file:///Users/janpozivil/Sites/cv19-uk-timeline/src/App.test.js#5
+  @file:///Users/janpozivil/Sites/cv19-uk-timeline/src/EventsList/EventList.js
+    ☐ // @todo change the way to display details as formatted text @see https://www.sanity.io/docs/block-content @file:///Users/janpozivil/Sites/cv19-uk-timeline/src/EventsList/EventList.js#10
+    ☐ // @todo add author to meta data @file:///Users/janpozivil/Sites/cv19-uk-timeline/src/EventsList/EventList.js#11
+    ☐ // @todo add source link to meta data @file:///Users/janpozivil/Sites/cv19-uk-timeline/src/EventsList/EventList.js#12
+  @file:///Users/janpozivil/Sites/cv19-uk-timeline/src/TimelineUnitList/TimeUnitList.js
+    ☐ // @todo add test for the sortEvents() @file:///Users/janpozivil/Sites/cv19-uk-timeline/src/TimelineUnitList/TimeUnitList.js#9
+    ☐ // @todo add test for the getMonthName() - probably goodone to start with @file:///Users/janpozivil/Sites/cv19-uk-timeline/src/TimelineUnitList/TimeUnitList.js#41
