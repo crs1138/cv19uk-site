@@ -6,6 +6,7 @@
     "@openfonts/fira-code_latin": "^1.44.8",
     "@openfonts/manuale_latin": "^1.0.1",
     "@openfonts/roboto-slab_latin": "^1.0.1",
+    "@sanity/client": "^1.149.13",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",

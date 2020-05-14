@@ -6,6 +6,7 @@ import styles from './TimeUnitList.module.scss';
 
 function TimeUnitList({events}) {
 
+    // @todo add test for the sortEvents()
     function sortEvents(events) {
         const grouppedEventsObj = events.reduce( (groups, event) => {
             const date = event.date.split('T')[0];
@@ -37,6 +38,7 @@ function TimeUnitList({events}) {
         return grouppedEventsArr;
     }
 
+    // @todo add test for the getMonthName() - probably goodone to start with
     function getMonthName(month) {
         const monthsOfYear = [
             `January`,
@@ -77,7 +79,7 @@ function TimeUnitList({events}) {
 TimeUnitList.propTypes = {
     events: PropTypes.arrayOf(
         PropTypes.shape({
-          id: PropTypes.string.isRequired,
+          _id: PropTypes.string.isRequired,
           date: PropTypes.string.isRequired,
           heading: PropTypes.string.isRequired,
           details: PropTypes.string,

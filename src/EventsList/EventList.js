@@ -7,12 +7,15 @@ import styles from './EventList.module.scss';
 dayjs.extend(advancedFormat);
 dayjs.extend(relativeTime);
 
+// @todo change the way to display details as formatted text @see https://www.sanity.io/docs/block-content
+// @todo add author to meta data
+// @todo add source link to meta data
 function EventList({events, dayZero}) {
     return (
         <ul className={styles.events}>
             {
                 events.map( event => {
-                    const {heading, details, date, id} = event;
+                    const {heading, details, date, _id: id} = event;
                     const dateObj = dayjs(date);
                     return (
                         <li className={styles.event} key={id}>
@@ -29,7 +32,7 @@ function EventList({events, dayZero}) {
 EventList.propTypes = {
     events: PropTypes.arrayOf(
         PropTypes.shape({
-            id: PropTypes.string.isRequired,
+            _id: PropTypes.string.isRequired,
             date: PropTypes.string.isRequired,
             heading: PropTypes.string.isRequired,
             details: PropTypes.string,
