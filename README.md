@@ -1,4 +1,14 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# CV19-UK-Timeline
+
+This project is documenting a sequence of events that took place in the UK and around the globe in connection with the
+2019+ Coronavirus pandemic. The initial collection of the events has been done by Emma Plunkett and completed, edited
+and verified by Mr. Jolly.
+
+Author of the code is Jan Pozivil (crs1138). 
+
+You can find the changes in the projects [CHANGELOG](https://github.com/crs1138/cv19-uk-timeline/blob/master/README.md).
+
+This project is the frontend implementation and it was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
