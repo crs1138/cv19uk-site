@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import sanityClient from '@sanity/client';
+import mySanityClient from '../sanityClient';
 import { fetchAllQuery } from './Queries';
 
 function useEvents(query = fetchAllQuery) {
@@ -8,13 +8,8 @@ function useEvents(query = fetchAllQuery) {
     
     useEffect( () => {
 
-        const client = sanityClient({
-            projectId: `he2py649`,
-            dataset:   `production`,
-        });
-
         async function fetchEvents() {
-            const response = await client.fetch( query )
+            const response = await mySanityClient.fetch( query )
     
             setEvents(response);
             setLoading(false);

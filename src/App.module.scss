@@ -27,6 +27,16 @@ h1, h2, h3, h4, h5 {
   font-family: $headingFontStack;
 }
 
+figure {
+  margin: 1rem 0;
+
+}
+
+figcaption {
+  font-size: 0.75rem;
+  font-style: italic;
+}
+
 .container {
   margin: 0 auto;
   max-width: 50rem;

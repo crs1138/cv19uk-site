@@ -82,7 +82,7 @@ TimeUnitList.propTypes = {
           _id: PropTypes.string.isRequired,
           date: PropTypes.string.isRequired,
           heading: PropTypes.string.isRequired,
-          details: PropTypes.string,
+          details: PropTypes.array,
         })
       ).isRequired
 };

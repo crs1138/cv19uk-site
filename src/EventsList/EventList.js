@@ -1,5 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import BlockContent from '@sanity/block-content-to-react';
+import mySanityClient from '../sanityClient';
+import imageUrlBuilder from '@sanity/image-url';
 import dayjs from 'dayjs';
 import advancedFormat from 'dayjs/plugin/advancedFormat';
 import relativeTime from 'dayjs/plugin/relativeTime';
@@ -10,7 +13,42 @@ dayjs.extend(relativeTime);
 // @todo change the way to display details as formatted text @see https://www.sanity.io/docs/block-content
 // @todo add author to meta data
 // @todo add source link to meta data
+
+const builder = imageUrlBuilder(mySanityClient);
+
+function urlFor(source) {
+    return builder.image(source);
+}
+
 function EventList({events, dayZero}) {
+    const serializers = {
+        types: {
+            code: props => (
+                <pre data-language={props.node.language}>
+                    <code>{props.node.code}</code>
+                </pre>
+            ),
+            figure: props => {
+                console.dir(props);
+                const {node: {alt, caption, image}} = props;
+                return (
+                    <>
+                    <figure>
+                        <img 
+                            src={urlFor(image)
+                                .width(300)
+                                .height(250)
+                                .url()
+                            } 
+                            alt={alt} />
+                        <figcaption>{caption}</figcaption>
+                    </figure>
+                    </>
+                );
+            }
+        }
+    }
+
     return (
         <ul className={styles.events}>
             {
@@ -24,6 +62,7 @@ function EventList({events, dayZero}) {
                         source,
                     } = event;
                     const dateObj = dayjs(date);
+                    // console.table(details)
                     return (
                         <li className={styles.event} key={id}>
                             <h2 className={styles.event__heading}>{ heading }</h2>
@@ -33,7 +72,7 @@ function EventList({events, dayZero}) {
                                 <p>Source: {undefined !== source ? source : `unknown`}</p>
                                 <p>Added by: {undefined !== authorName ? authorName : `anonymous`}</p>
                             </div>
-                            { undefined !== details && details}
+                            { undefined !== details && ( <BlockContent blocks={details} serializers={serializers} /> )}
                         </li>
                     );
                 })
@@ -47,7 +86,7 @@ EventList.propTypes = {
             _id: PropTypes.string.isRequired,
             date: PropTypes.string.isRequired,
             heading: PropTypes.string.isRequired,
-            details: PropTypes.string,
+            details: PropTypes.array,
             authorName: PropTypes.string,
         })
     ).isRequired,
