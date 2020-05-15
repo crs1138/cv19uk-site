@@ -17,6 +17,9 @@ body {
   line-height: 1.425;
   font-family: $txtFontStack;
   color: $txtColor;
+  @media screen and (min-width: 992px) {
+      font-size: 18px;
+  }
 }
 
 a {
@@ -29,7 +32,11 @@ h1, h2, h3, h4, h5 {
 
 figure {
   margin: 1rem 0;
+  max-width: 100%;
+}
 
+img {
+  max-width: 100%;
 }
 
 figcaption {

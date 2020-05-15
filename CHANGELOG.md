@@ -3,6 +3,24 @@
 This is a list of changes applied to the [CV19-UK-Timeline](https://cv19uk.planxdesign.eu)
 project. The changelog is following [Semantic Verisoning](https://semver.org/)
 
+## [0.3.0] (2020-05-15)
+
+### Added
+
+* added a component for listing the sources
+
+### Changed
+
+* changed the event's sources to accommodate multiple values.
+* changed the display of images inside of the event's details to stay within the
+  boundaries of the description and to stop being cropped.
+* changed the order of the meta values and the description, so the date stays
+  above the description and the author of each event listing together with
+  sources appear below.
+* improved readability by increasing the text size for bigger screens and by
+  making the text darker
+* set the HTML document title.
+
 ## [0.2.0] (2020-05-14)
 
 ### Added
