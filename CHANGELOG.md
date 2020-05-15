@@ -3,6 +3,12 @@
 This is a list of changes applied to the [CV19-UK-Timeline](https://cv19uk.planxdesign.eu)
 project. The changelog is following [Semantic Verisoning](https://semver.org/)
 
+## [0.3.1] (2020-05-15)
+
+### Changed
+
+* set the text alignment to the right for narrow screen.
+
 ## [0.3.0] (2020-05-15)
 
 ### Added
