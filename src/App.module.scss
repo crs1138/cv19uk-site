@@ -1,0 +1,62 @@
+@import "./scss/01-variables";
+// Initial setup
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: $bgColor;
+  min-height: 100vh;
+  font-size: 16px;
+  line-height: 1.425;
+  font-family: $txtFontStack;
+  color: $txtColor;
+  @media screen and (min-width: 992px) {
+      font-size: 18px;
+  }
+}
+
+a {
+  color: $linkColor;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: $headingFontStack;
+}
+
+figure {
+  margin: 1rem 0;
+  max-width: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+figcaption {
+  font-size: 0.75rem;
+  font-style: italic;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 50rem;
+  padding: 0 1rem;
+}
+
+.loading {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background-color: transparent;
+}

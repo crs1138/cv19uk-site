@@ -14,10 +14,10 @@ function Timeline({ events }) {
 Timeline.propTypes = {
   events: PropTypes.arrayOf(
     PropTypes.shape({
-      _id: PropTypes.string.isRequired,
-      date: PropTypes.string.isRequired,
+      _id:     PropTypes.string.isRequired,
+      date:    PropTypes.string.isRequired,
       heading: PropTypes.string.isRequired,
-      details: PropTypes.string,
+      details: PropTypes.array,
     })
   ).isRequired
 };

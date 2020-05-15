@@ -1,0 +1,20 @@
+@import "../scss/01-variables";
+
+.sources {
+    list-style: none;
+    font-size: 0.75rem;
+    line-height: 1.2;
+    padding: 0;
+    margin-bottom: 1rem;
+}
+
+.source {
+    margin-bottom: 0.5rem;
+    > a {
+        color: $metaColor;
+        &:hover,
+        &:active {
+            color: $linkColor;
+        }
+    }
+}
