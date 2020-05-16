@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b297379452c9b3447f44a9fe08c2858e",
+    "revision": "a01d4060750b3f0d9f49217bacfd80fc",
     "url": "/cv19-uk-timeline/index.html"
   },
   {
-    "revision": "09f57e77ea14ad74fcda",
-    "url": "/cv19-uk-timeline/static/css/2.95f65911.chunk.css"
+    "revision": "77dad7035d81c5b53340",
+    "url": "/cv19-uk-timeline/static/css/2.e9b0af77.chunk.css"
   },
   {
-    "revision": "2309e12a0ec038ba3ee2",
-    "url": "/cv19-uk-timeline/static/css/main.ca8bb0f1.chunk.css"
+    "revision": "1c21dd07a337db85e6c5",
+    "url": "/cv19-uk-timeline/static/css/main.57ed8064.chunk.css"
   },
   {
-    "revision": "09f57e77ea14ad74fcda",
-    "url": "/cv19-uk-timeline/static/js/2.5d238e05.chunk.js"
+    "revision": "77dad7035d81c5b53340",
+    "url": "/cv19-uk-timeline/static/js/2.1f3f47f8.chunk.js"
   },
   {
     "revision": "fbdb25c6a30511ca0525a561a8e4c009",
-    "url": "/cv19-uk-timeline/static/js/2.5d238e05.chunk.js.LICENSE.txt"
+    "url": "/cv19-uk-timeline/static/js/2.1f3f47f8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2309e12a0ec038ba3ee2",
-    "url": "/cv19-uk-timeline/static/js/main.65af51fa.chunk.js"
+    "revision": "1c21dd07a337db85e6c5",
+    "url": "/cv19-uk-timeline/static/js/main.046dbedb.chunk.js"
   },
   {
     "revision": "d3dce5058e54eeb58e6c",
     "url": "/cv19-uk-timeline/static/js/runtime-main.92f21f21.js"
+  },
+  {
+    "revision": "84e8037b58bf6f1c5795043c486e8595",
+    "url": "/cv19-uk-timeline/static/media/UN-covid-19-response.84e8037b.jpg"
   },
   {
     "revision": "ac896927885dbb76bae2db92bc8cf6ed",
