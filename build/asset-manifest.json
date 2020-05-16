@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/cv19-uk-timeline/static/css/main.097e6a21.chunk.css",
-    "main.js": "/cv19-uk-timeline/static/js/main.34b748d7.chunk.js",
-    "main.js.map": "/cv19-uk-timeline/static/js/main.34b748d7.chunk.js.map",
+    "main.css": "/cv19-uk-timeline/static/css/main.57ed8064.chunk.css",
+    "main.js": "/cv19-uk-timeline/static/js/main.046dbedb.chunk.js",
+    "main.js.map": "/cv19-uk-timeline/static/js/main.046dbedb.chunk.js.map",
     "runtime-main.js": "/cv19-uk-timeline/static/js/runtime-main.92f21f21.js",
     "runtime-main.js.map": "/cv19-uk-timeline/static/js/runtime-main.92f21f21.js.map",
-    "static/css/2.95f65911.chunk.css": "/cv19-uk-timeline/static/css/2.95f65911.chunk.css",
-    "static/js/2.1f742639.chunk.js": "/cv19-uk-timeline/static/js/2.1f742639.chunk.js",
-    "static/js/2.1f742639.chunk.js.map": "/cv19-uk-timeline/static/js/2.1f742639.chunk.js.map",
+    "static/css/2.e9b0af77.chunk.css": "/cv19-uk-timeline/static/css/2.e9b0af77.chunk.css",
+    "static/js/2.1f3f47f8.chunk.js": "/cv19-uk-timeline/static/js/2.1f3f47f8.chunk.js",
+    "static/js/2.1f3f47f8.chunk.js.map": "/cv19-uk-timeline/static/js/2.1f3f47f8.chunk.js.map",
     "index.html": "/cv19-uk-timeline/index.html",
-    "precache-manifest.c7040931715f6f23a018567c1c07a94f.js": "/cv19-uk-timeline/precache-manifest.c7040931715f6f23a018567c1c07a94f.js",
+    "precache-manifest.727f7303cd953192f649ddb150507fc3.js": "/cv19-uk-timeline/precache-manifest.727f7303cd953192f649ddb150507fc3.js",
     "service-worker.js": "/cv19-uk-timeline/service-worker.js",
-    "static/css/2.95f65911.chunk.css.map": "/cv19-uk-timeline/static/css/2.95f65911.chunk.css.map",
-    "static/css/main.097e6a21.chunk.css.map": "/cv19-uk-timeline/static/css/main.097e6a21.chunk.css.map",
-    "static/js/2.1f742639.chunk.js.LICENSE.txt": "/cv19-uk-timeline/static/js/2.1f742639.chunk.js.LICENSE.txt",
-    "static/media/Timeline.module.scss": "/cv19-uk-timeline/static/media/roboto-slab-latin-900.c3cea20f.woff2"
+    "static/css/2.e9b0af77.chunk.css.map": "/cv19-uk-timeline/static/css/2.e9b0af77.chunk.css.map",
+    "static/css/main.57ed8064.chunk.css.map": "/cv19-uk-timeline/static/css/main.57ed8064.chunk.css.map",
+    "static/js/2.1f3f47f8.chunk.js.LICENSE.txt": "/cv19-uk-timeline/static/js/2.1f3f47f8.chunk.js.LICENSE.txt",
+    "static/media/Header.module.scss": "/cv19-uk-timeline/static/media/UN-covid-19-response.84e8037b.jpg",
+    "static/media/App.scss": "/cv19-uk-timeline/static/media/roboto-slab-latin-900.c3cea20f.woff2"
   },
   "entrypoints": [
     "static/js/runtime-main.92f21f21.js",
-    "static/css/2.95f65911.chunk.css",
-    "static/js/2.1f742639.chunk.js",
-    "static/css/main.097e6a21.chunk.css",
-    "static/js/main.34b748d7.chunk.js"
+    "static/css/2.e9b0af77.chunk.css",
+    "static/js/2.1f3f47f8.chunk.js",
+    "static/css/main.57ed8064.chunk.css",
+    "static/js/main.046dbedb.chunk.js"
   ]
 }

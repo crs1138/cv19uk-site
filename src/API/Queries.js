@@ -7,3 +7,9 @@ export const fetchAllQuery = `* [ _type == 'event' ] | order(date asc, heading) 
   source,
   "authorName":author->name
 }`;
+
+export const fetchSiteSettings = `* [ _type == 'siteSettings' ] {
+	title,
+	footer,
+  description
+}`;

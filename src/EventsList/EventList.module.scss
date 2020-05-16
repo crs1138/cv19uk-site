@@ -12,7 +12,7 @@
     padding: 1rem 0;
     padding-right: 2rem;
     position: relative;
-    @media screen and (min-width: 992px) {
+    @media screen and (min-width: $smallDesktop) {
         padding-bottom: 2rem;
     }
     &::after {
@@ -34,10 +34,6 @@
             animation-delay: 0.75s;
         }
     }
-    > p {
-        text-align: justify;
-        margin: 1rem 0;
-    }
     &__heading {
         font-family: $headingFontStack;
         font-size: 1.5rem;
@@ -45,6 +41,12 @@
         margin-top: 0;
         margin-bottom: 0.5rem;
         color: $linkColor;
+    }
+    &__details {
+        margin: 1rem 0;
+        @media screen and (min-width: $smallDesktop) {
+            text-align: justify;
+        }
     }
     &__meta {
         font-family: $timeFontStack;

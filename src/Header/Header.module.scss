@@ -1,0 +1,29 @@
+@import "../scss/01-variables";
+$headerBg: #2E358D;
+$titleColor: #FFFFFF;
+.cv19 {
+    &__header {
+        background-color: $headerBg;
+        background-image: url('./UN-covid-19-response.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        padding-bottom: 2rem;
+        @media screen and (min-width: $smallDesktop) {
+            background-position: center top;
+            height: 30vh;
+        }
+    }
+
+    &__title {
+        margin: 0;
+        color: $titleColor;
+        text-align: center;
+        background-color: rgba($headerBg, 0.7);
+        box-shadow: 0 0 2rem 1rem $headerBg;
+    }
+}    

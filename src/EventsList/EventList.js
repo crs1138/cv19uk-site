@@ -65,7 +65,11 @@ function EventList({events, dayZero}) {
                             <div className={styles.event__meta}>
                                 {dateObj.format(`MMMM Do, YYYY`)} 
                             </div>
-                            { undefined !== details && ( <BlockContent blocks={details} serializers={serializers} /> )}
+                            { undefined !== details && ( 
+                                <div className={styles.event__details}>
+                                    <BlockContent blocks={details} serializers={serializers} /> 
+                                </div>
+                            )}
                             <div className={styles.event__meta}>
                                 { !!source && source.length > 0 && (
                                     <SourceList sources={source} />

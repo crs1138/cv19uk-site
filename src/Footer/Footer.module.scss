@@ -1,0 +1,21 @@
+@import "../scss/01-variables";
+
+$footerColor: #222222;
+
+.tm__footer {
+    background-color: $footerColor;
+    color: $bgColor;
+    font-size: 0.75rem;
+    padding: 1rem;
+    font-family: $timeFontStack;
+    .container {
+        margin: 0 auto;
+        max-width: 50rem;
+        padding: 0 1rem;
+    }
+    p {
+        text-align: center;
+        margin: 0.75rem;
+    }
+
+}
