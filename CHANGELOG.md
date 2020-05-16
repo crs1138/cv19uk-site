@@ -3,6 +3,21 @@
 This is a list of changes applied to the [CV19-UK-Timeline](https://cv19uk.planxdesign.eu)
 project. The changelog is following [Semantic Verisoning](https://semver.org/)
 
+## [0.4.0] (2020-05-17)
+
+### Added
+
+* components for the header and footer, also necessary hooks to fetch data
+  from the db and update the App's state
+* GPLv3 license
+* image for the App's heading
+
+### Changed
+
+* liberalized the App's style library, so the styles defined there are 
+  accessible through the whole application
+* changed the accent colour to match the image in the heading
+
 ## [0.3.1] (2020-05-15)
 
 ### Changed
