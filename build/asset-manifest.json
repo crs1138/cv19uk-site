@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cv19-uk-timeline/static/css/main.57ed8064.chunk.css",
+    "main.css": "/cv19-uk-timeline/static/css/main.66ab60d8.chunk.css",
     "main.js": "/cv19-uk-timeline/static/js/main.046dbedb.chunk.js",
     "main.js.map": "/cv19-uk-timeline/static/js/main.046dbedb.chunk.js.map",
     "runtime-main.js": "/cv19-uk-timeline/static/js/runtime-main.92f21f21.js",
@@ -9,10 +9,10 @@
     "static/js/2.1f3f47f8.chunk.js": "/cv19-uk-timeline/static/js/2.1f3f47f8.chunk.js",
     "static/js/2.1f3f47f8.chunk.js.map": "/cv19-uk-timeline/static/js/2.1f3f47f8.chunk.js.map",
     "index.html": "/cv19-uk-timeline/index.html",
-    "precache-manifest.727f7303cd953192f649ddb150507fc3.js": "/cv19-uk-timeline/precache-manifest.727f7303cd953192f649ddb150507fc3.js",
+    "precache-manifest.908de9d66c5338887f96681d262acec1.js": "/cv19-uk-timeline/precache-manifest.908de9d66c5338887f96681d262acec1.js",
     "service-worker.js": "/cv19-uk-timeline/service-worker.js",
     "static/css/2.e9b0af77.chunk.css.map": "/cv19-uk-timeline/static/css/2.e9b0af77.chunk.css.map",
-    "static/css/main.57ed8064.chunk.css.map": "/cv19-uk-timeline/static/css/main.57ed8064.chunk.css.map",
+    "static/css/main.66ab60d8.chunk.css.map": "/cv19-uk-timeline/static/css/main.66ab60d8.chunk.css.map",
     "static/js/2.1f3f47f8.chunk.js.LICENSE.txt": "/cv19-uk-timeline/static/js/2.1f3f47f8.chunk.js.LICENSE.txt",
     "static/media/Header.module.scss": "/cv19-uk-timeline/static/media/UN-covid-19-response.84e8037b.jpg",
     "static/media/App.scss": "/cv19-uk-timeline/static/media/roboto-slab-latin-900.c3cea20f.woff2"
@@ -21,7 +21,7 @@
     "static/js/runtime-main.92f21f21.js",
     "static/css/2.e9b0af77.chunk.css",
     "static/js/2.1f3f47f8.chunk.js",
-    "static/css/main.57ed8064.chunk.css",
+    "static/css/main.66ab60d8.chunk.css",
     "static/js/main.046dbedb.chunk.js"
   ]
 }
