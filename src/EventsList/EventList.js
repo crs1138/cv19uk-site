@@ -11,10 +11,6 @@ import styles from './EventList.module.scss';
 dayjs.extend(advancedFormat);
 dayjs.extend(relativeTime);
 
-// @todo change the way to display details as formatted text @see https://www.sanity.io/docs/block-content
-// @todo add author to meta data
-// @todo add source link to meta data
-
 const builder = imageUrlBuilder(mySanityClient);
 
 function urlFor(source) {
