@@ -15,7 +15,11 @@ Timeline.propTypes = {
   events: PropTypes.arrayOf(
     PropTypes.shape({
       _id:     PropTypes.string.isRequired,
-      date:    PropTypes.string.isRequired,
+      date:    PropTypes.shape({
+        utc:   PropTypes.string.isRequired,
+        local: PropTypes.string,
+        _type: PropTypes.oneOf(['richDate']).isRequired,
+      }).isRequired,
       heading: PropTypes.string.isRequired,
       details: PropTypes.array,
     })
