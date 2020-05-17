@@ -3,6 +3,12 @@
 This is a list of changes applied to the [CV19-UK-Timeline](https://cv19uk.planxdesign.eu)
 project. The changelog is following [Semantic Verisoning](https://semver.org/)
 
+## [0.5.0] (2020-05-17)
+
+### Added
+
+* favicon for various platforms
+
 ## [0.4.1] (2020-05-17)
 
 ### Fixed
