@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/cv19-uk-timeline/static/css/main.66ab60d8.chunk.css",
-    "main.js": "/cv19-uk-timeline/static/js/main.d620394a.chunk.js",
-    "main.js.map": "/cv19-uk-timeline/static/js/main.d620394a.chunk.js.map",
+    "main.js": "/cv19-uk-timeline/static/js/main.491a5be5.chunk.js",
+    "main.js.map": "/cv19-uk-timeline/static/js/main.491a5be5.chunk.js.map",
     "runtime-main.js": "/cv19-uk-timeline/static/js/runtime-main.92f21f21.js",
     "runtime-main.js.map": "/cv19-uk-timeline/static/js/runtime-main.92f21f21.js.map",
     "static/css/2.e9b0af77.chunk.css": "/cv19-uk-timeline/static/css/2.e9b0af77.chunk.css",
-    "static/js/2.1f3f47f8.chunk.js": "/cv19-uk-timeline/static/js/2.1f3f47f8.chunk.js",
-    "static/js/2.1f3f47f8.chunk.js.map": "/cv19-uk-timeline/static/js/2.1f3f47f8.chunk.js.map",
+    "static/js/2.8147a7c5.chunk.js": "/cv19-uk-timeline/static/js/2.8147a7c5.chunk.js",
+    "static/js/2.8147a7c5.chunk.js.map": "/cv19-uk-timeline/static/js/2.8147a7c5.chunk.js.map",
     "index.html": "/cv19-uk-timeline/index.html",
-    "precache-manifest.54ef9ab3bb35d997988f0072a02d4512.js": "/cv19-uk-timeline/precache-manifest.54ef9ab3bb35d997988f0072a02d4512.js",
+    "precache-manifest.80571dfe32b30814aa24eecc76b47b1e.js": "/cv19-uk-timeline/precache-manifest.80571dfe32b30814aa24eecc76b47b1e.js",
     "service-worker.js": "/cv19-uk-timeline/service-worker.js",
     "static/css/2.e9b0af77.chunk.css.map": "/cv19-uk-timeline/static/css/2.e9b0af77.chunk.css.map",
     "static/css/main.66ab60d8.chunk.css.map": "/cv19-uk-timeline/static/css/main.66ab60d8.chunk.css.map",
-    "static/js/2.1f3f47f8.chunk.js.LICENSE.txt": "/cv19-uk-timeline/static/js/2.1f3f47f8.chunk.js.LICENSE.txt",
+    "static/js/2.8147a7c5.chunk.js.LICENSE.txt": "/cv19-uk-timeline/static/js/2.8147a7c5.chunk.js.LICENSE.txt",
     "static/media/Header.module.scss": "/cv19-uk-timeline/static/media/UN-covid-19-response.84e8037b.jpg",
     "static/media/App.scss": "/cv19-uk-timeline/static/media/roboto-slab-latin-900.c3cea20f.woff2"
   },
   "entrypoints": [
     "static/js/runtime-main.92f21f21.js",
     "static/css/2.e9b0af77.chunk.css",
-    "static/js/2.1f3f47f8.chunk.js",
+    "static/js/2.8147a7c5.chunk.js",
     "static/css/main.66ab60d8.chunk.css",
-    "static/js/main.d620394a.chunk.js"
+    "static/js/main.491a5be5.chunk.js"
   ]
 }

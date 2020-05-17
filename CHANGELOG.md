@@ -3,6 +3,13 @@
 This is a list of changes applied to the [CV19-UK-Timeline](https://cv19uk.planxdesign.eu)
 project. The changelog is following [Semantic Verisoning](https://semver.org/)
 
+## [0.5.2] (2020-05-17)
+
+### Fixed
+
+* the days were off by a day due to the database scheme and frontend working in
+  different local times.
+
 ## [0.5.1] (2020-05-17)
 
 ### Changed

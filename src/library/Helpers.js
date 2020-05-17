@@ -49,7 +49,7 @@ const Helpers = {
      */
     regroupEvents: (events) => {
         const groupedEventsObj = events.reduce( (groups, event) => {
-            const date = event.date.split('T')[0];
+            const date = event.date.utc.split('T')[0];
             const year = date.split('-')[0];
             const month = date.split('-')[1];
             const yearMonth = `${year}-${month}`;
@@ -62,7 +62,7 @@ const Helpers = {
             return groups;
         }, {});
     
-        const grouppedEventsArr = [];
+        const groupedEventsArr = [];
         for ( const yearMonth in groupedEventsObj ) {
             const date = yearMonth.split(`-`);
             const label = {
@@ -73,9 +73,9 @@ const Helpers = {
                 label,
                 events: groupedEventsObj[yearMonth]
             };
-            grouppedEventsArr.push(group);
+            groupedEventsArr.push(group);
         }
-        return grouppedEventsArr;
+        return groupedEventsArr;
     }
 };
 

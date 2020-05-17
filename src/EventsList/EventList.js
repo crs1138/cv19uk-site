@@ -7,9 +7,11 @@ import SourceList from '../SourceList/SourceList';
 import dayjs from 'dayjs';
 import advancedFormat from 'dayjs/plugin/advancedFormat';
 import relativeTime from 'dayjs/plugin/relativeTime';
+import utc from 'dayjs/plugin/utc';
 import styles from './EventList.module.scss';
 dayjs.extend(advancedFormat);
 dayjs.extend(relativeTime);
+dayjs.extend(utc);
 
 const builder = imageUrlBuilder(mySanityClient);
 
@@ -17,7 +19,7 @@ function urlFor(source) {
     return builder.image(source);
 }
 
-function EventList({events, dayZero}) {
+function EventList({events}) {
     const serializers = {
         types: {
             figure: props => {
@@ -53,8 +55,7 @@ function EventList({events, dayZero}) {
                         authorName,
                         source,
                     } = event;
-                    const dateObj = dayjs(date);
-
+                    const dateObj = dayjs.utc(date.utc);
                     return (
                         <li className={styles.event} key={id}>
                             <h2 className={styles.event__heading}>{ heading }</h2>
@@ -83,13 +84,16 @@ EventList.propTypes = {
     events: PropTypes.arrayOf(
         PropTypes.shape({
             _id: PropTypes.string.isRequired,
-            date: PropTypes.string.isRequired,
+            date:    PropTypes.shape({
+                utc:   PropTypes.string.isRequired,
+                local: PropTypes.string,
+                _type: PropTypes.oneOf(['richDate']).isRequired,
+              }).isRequired,
             heading: PropTypes.string.isRequired,
             details: PropTypes.array,
             authorName: PropTypes.string,
         })
     ).isRequired,
-    dayZero: PropTypes.string.isRequired
 };
 
 export default EventList;
