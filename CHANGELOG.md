@@ -8,6 +8,8 @@ project. The changelog is following [Semantic Verisoning](https://semver.org/)
 ### Added
 
 * favicon for various platforms
+* automated tests for Helpers functions
+* automated test for the App component
 
 ## [0.4.1] (2020-05-17)
 
