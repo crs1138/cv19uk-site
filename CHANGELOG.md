@@ -3,6 +3,12 @@
 This is a list of changes applied to the [CV19-UK-Timeline](https://cv19uk.planxdesign.eu)
 project. The changelog is following [Semantic Verisoning](https://semver.org/)
 
+## [0.5.4] (2020-05-22)
+
+### Changed
+
+* wraps long links in the sources meta data onto new lines.
+
 ## [0.5.3] (2020-05-22)
 
 ### Fixed
