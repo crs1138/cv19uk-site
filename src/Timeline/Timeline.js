@@ -15,11 +15,13 @@ Timeline.propTypes = {
   events: PropTypes.arrayOf(
     PropTypes.shape({
       _id:     PropTypes.string.isRequired,
-      date:    PropTypes.shape({
-        utc:   PropTypes.string.isRequired,
-        local: PropTypes.string,
-        _type: PropTypes.oneOf(['richDate']).isRequired,
-      }).isRequired,
+      date: function(props, propName, componentName){
+        if ( !/^(19|20)\d\d-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])$/.test(props[propName] )) {
+            return new Error(
+                `Invalid prop ${propName} supplied to ${componentName}. Validation failed.`
+            );
+        }
+      },
       heading: PropTypes.string.isRequired,
       details: PropTypes.array,
     })
