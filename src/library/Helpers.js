@@ -49,7 +49,7 @@ const Helpers = {
      */
     regroupEvents: (events) => {
         const groupedEventsObj = events.reduce( (groups, event) => {
-            const date = event.date.utc.split('T')[0];
+            const {date} = event;
             const year = date.split('-')[0];
             const month = date.split('-')[1];
             const yearMonth = `${year}-${month}`;
