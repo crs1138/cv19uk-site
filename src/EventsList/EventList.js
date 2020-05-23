@@ -40,6 +40,14 @@ function EventList({events}) {
                     </>
                 );
             }
+        },
+        marks: {
+            link: ({ mark, children }) => {
+                const { blank = true, href } = mark;
+                return blank ?
+                    <a href={href} target="_blank" rel="noopener noreferrer">{children}</a>
+                    : <a href={href}>{children}</a>
+            }
         }
     }
 
