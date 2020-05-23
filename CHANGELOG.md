@@ -3,6 +3,12 @@
 This is a list of changes applied to the [CV19-UK-Timeline](https://cv19uk.planxdesign.eu)
 project. The changelog is following [Semantic Verisoning](https://semver.org/)
 
+## [0.5.6] (2020-05-22)
+
+### Fixed
+
+* fix the missing serializer for the external links in the `details` field
+
 ## [0.5.5] (2020-05-22)
 
 ### Changed
