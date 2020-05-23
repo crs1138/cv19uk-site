@@ -76,7 +76,7 @@ const Helpers = {
             groupedEventsArr.push(group);
         }
         return groupedEventsArr;
-    }
+    },
 };
 
 export default Helpers;

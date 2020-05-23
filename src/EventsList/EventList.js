@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import BlockContent from '@sanity/block-content-to-react';
+import PortableText from '@sanity/block-content-to-react';
 import mySanityClient from '../sanityClient';
 import imageUrlBuilder from '@sanity/image-url';
 import SourceList from '../SourceList/SourceList';
@@ -40,6 +40,14 @@ function EventList({events}) {
                     </>
                 );
             }
+        },
+        marks: {
+            link: ({ mark, children }) => {
+                const { blank = true, href } = mark;
+                return blank ?
+                    <a href={href} target="_blank" rel="noopener noreferrer">{children}</a>
+                    : <a href={href}>{children}</a>
+            }
         }
     }
 
@@ -64,7 +72,7 @@ function EventList({events}) {
                             </div>
                             { undefined !== details && ( 
                                 <div className={styles.event__details}>
-                                    <BlockContent blocks={details} serializers={serializers} /> 
+                                    <PortableText blocks={details} serializers={serializers} /> 
                                 </div>
                             )}
                             <div className={styles.event__meta}>
