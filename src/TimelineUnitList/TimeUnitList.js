@@ -16,7 +16,9 @@ function TimeUnitList({events}) {
                     const {label, events} = unit;
                     return (
                         <li className={styles.time_unit} key={uuidv4()}>
-                            <div className={styles.time_unit__label}>{ label.month }<span>{ label.year }</span></div>
+                            <div className={styles.time_unit__label_wrap}>
+                                <div className={styles.time_unit__label}>{ label.month }<span>{ label.year }</span></div>
+                            </div>
                             <EventsList events={ events } />
                         </li>
                     );
