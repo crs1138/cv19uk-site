@@ -3,6 +3,12 @@
 This is a list of changes applied to the [CV19-UK-Timeline](https://cv19uk.planxdesign.eu)
 project. The changelog is following [Semantic Verisoning](https://semver.org/)
 
+## [1.0.0-rc.2] (2020-05-23)
+
+### Added
+
+* added CNAME file
+
 ## [1.0.0-rc.1] (2020-05-23)
 
 ### Added
