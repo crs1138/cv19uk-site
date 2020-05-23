@@ -6,10 +6,19 @@
     margin: 0;
     .time_unit {
         position: relative;
-        min-height: 15rem;
-        margin-top: 3rem;
+        min-height: 13.5rem;
+        padding-top: 13.5rem;
         &:first-child {
             margin-top: 0;
+        }
+        &__label_wrap {
+            position: sticky;
+            z-index: -2;
+            height: 13.5rem;
+            top: 0rem;
+            margin-top: -13.5rem;
+            margin-bottom: -13.5rem;
+            background-color: $bgColor;
         }
         &__label {
             color: $bgColor;
@@ -22,7 +31,10 @@
             position: absolute;
             top: 0;
             right: 2rem;
+            min-width: 12.5rem;
             max-width: 16rem;
+            padding: 0 1rem 1rem 0;
+            background-color: $bgColor;
             text-align: right;
             text-shadow: -1px -1px 0 rgba($linkColor, 0.6), 
                           1px -1px 0 rgba($linkColor, 0.6), 
