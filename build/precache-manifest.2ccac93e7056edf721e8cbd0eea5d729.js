@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2c64aa4e5eb8ffcd483b904a10ddf69d",
+    "revision": "88710ea0c791f6921582ee48ede13c06",
     "url": "/cv19-uk-timeline/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cv19-uk-timeline/static/css/2.e9b0af77.chunk.css"
   },
   {
-    "revision": "f93c7d4bd43d55d767b5",
+    "revision": "e9a02a38d301f16cc756",
     "url": "/cv19-uk-timeline/static/css/main.99f6b5dc.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cv19-uk-timeline/static/js/2.8147a7c5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f93c7d4bd43d55d767b5",
-    "url": "/cv19-uk-timeline/static/js/main.fd845c78.chunk.js"
+    "revision": "e9a02a38d301f16cc756",
+    "url": "/cv19-uk-timeline/static/js/main.891b0acf.chunk.js"
   },
   {
     "revision": "d3dce5058e54eeb58e6c",
