@@ -1,78 +1,26 @@
 # CV19-UK-Timeline
 
 This project is documenting a sequence of events that took place in the UK and around the globe in connection with the
-2019+ Coronavirus pandemic. The initial collection of the events has been done by Emma Plunkett and completed, edited
-and verified by Mr. Jolly.
+2019+ coronavirus pandemic. The initial collection of the events has been done by Emma Plunkett and completed, edited
+and verified by a friend of Emma who wishes to remain anonymous.
 
-Author of the code is Jan Pozivil (crs1138). 
+To see the app in action, head over to [CV19-UK-Timeline](https://crs1138.github.io/cv19-uk-timeline).
 
-You can find the changes in the projects [CHANGELOG](https://github.com/crs1138/cv19-uk-timeline/blob/master/README.md).
+The author of the original code is Jan Poživil (@crs1138). This whole project is a programming exercise to explore the 
+possibilities of using [Sanity – headless CMS](https://www.sanity.io/) together with the frontend Web SPA (Single Page 
+Application) written in React. The anonymous content contributor wishes to keep copyright to the content, but we'd like 
+to encourage you to use, copy, modify or even better contribute to the codebase of this project.
 
-This project is the frontend implementation and it was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Changelog
 
-## Available Scripts
+You can find the changes in the projects [CHANGELOG](https://github.com/crs1138/cv19-uk-timeline/blob/master/CHANGELOG.md).
 
-In the project directory, you can run:
+## Contributing
 
-### `yarn start`
+This project is the frontend implementation and it was created using the [Create React App](https://github.com/facebook/create-react-app). Please read the [CONTRIBUTING](https://github.com/crs1138/cv19-uk-timeline/blob/master/CONTRIBUTING.md) 
+document for more technical information.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Contributors
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+You can find the list of [CONTRIBUTORS](https://github.com/crs1138/cv19-uk-timeline/blob/master/CONTRIBUTING.md) with 
+all the people who wished to be mentioned.
