@@ -1,5 +1,5 @@
 {
-  "name": "cv19uk",
+  "name": "cv19-uk-studio",
   "private": true,
   "version": "1.0.0",
   "description": "",
@@ -8,6 +8,7 @@
   "license": "UNLICENSED",
   "scripts": {
     "start": "sanity start",
+    "deploy": "sanity deploy",
     "test": "sanity check"
   },
   "keywords": [

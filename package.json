@@ -1,11 +1,22 @@
 {
-  "name": "coviduk.site",
+  "name": "coviduk",
   "version": "1.0.0",
   "description": "Monorepo uniting together the Sanity backend and the ReactJS frontend for the coviduk.site",
-  "main": "index.js",
+  "main": "package.json",
   "author": "Jan Pozivil <crs1138@me.com>",
   "license": "LGPL-3.0-or-later",
   "private": false,
+  "scripts": {
+    "build": "lerna run build --stream",
+    "deploy": "lerna run deploy --stream",
+    "web:build": "lerna run --scope cv19-uk-web build",
+    "web:dev": "lerna run --scope cv19-uk-web start",
+    "web:test": "lerna run --scope cv19-uk-web test",
+    "web:deploy": "lerna run --scope cv19-uk-web deploy",
+    "studio:dev": "lerna run --scope cv19-uk-studio start",
+    "studio:deploy": "lerna run --scope cv19-uk-studio deploy",
+    "studio:test": "lerna run --scope cv19-uk-studio test"
+  },
   "devDependencies": {
     "@sanity/cli": "^1.149.13",
     "lerna": "^3.22.0"
