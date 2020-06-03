@@ -1,0 +1,53 @@
+{
+  "name": "cv19-uk-timeline",
+  "version": "0.5.2",
+  "private": true,
+  "homepage": "https://crs1138.github.io/",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.28",
+    "@fortawesome/pro-duotone-svg-icons": "^5.13.0",
+    "@fortawesome/react-fontawesome": "^0.1.9",
+    "@openfonts/fira-code_latin": "^1.44.8",
+    "@openfonts/manuale_latin": "^1.0.1",
+    "@openfonts/roboto-slab_latin": "^1.0.1",
+    "@sanity/block-content-to-react": "^2.0.7",
+    "@sanity/client": "^1.149.13",
+    "@sanity/image-url": "^0.140.19",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "dayjs": "^1.8.26",
+    "gh-pages": "^2.2.0",
+    "node-sass": "^4.14.1",
+    "npm-run-all": "^4.1.5",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^6.0.0",
+    "react-scripts": "3.4.1",
+    "uuid": "^8.0.0"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

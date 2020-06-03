@@ -1,0 +1,55 @@
+{
+  "root": true,
+  "api": {
+    "projectId": "he2py649",
+    "dataset": "production"
+  },
+  "project": {
+    "name": "CV19-UK"
+  },
+  "__experimental_spaces": [
+    {
+      "name": "production",
+      "title": "Prod",
+      "default": true,
+      "api": {
+        "projectId": "he2py649",
+        "dataset": "production"
+      }
+    },
+    {
+      "name": "stage",
+      "title": "Stage",
+      "default": true,
+      "api": {
+        "projectId": "he2py649",
+        "dataset": "stage"
+      }
+    }
+  ],
+  "plugins": [
+    "@sanity/base",
+    "@sanity/components",
+    "@sanity/default-layout",
+    "@sanity/default-login",
+    "@sanity/desk-tool",
+    "@sanity/rich-date-input"
+  ],
+  "env": {
+    "development": {
+      "plugins": [
+        "@sanity/vision"
+      ]
+    }
+  },
+  "parts": [
+    {
+      "name": "part:@sanity/desk-tool/structure",
+      "path": "./deskStructure"
+    },
+    {
+      "name": "part:@sanity/base/schema",
+      "path": "./schemas/schema"
+    }
+  ]
+}
