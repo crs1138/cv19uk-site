@@ -3,6 +3,7 @@
   "version": "0.5.2",
   "private": true,
   "homepage": "https://coviduk.site/",
+  "license": "UNLICENSED",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.28",
     "@fortawesome/pro-duotone-svg-icons": "^5.13.0",
