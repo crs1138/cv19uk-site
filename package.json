@@ -9,6 +9,7 @@
   "scripts": {
     "build": "lerna run build --stream",
     "deploy": "lerna run deploy --stream",
+    "start": "lerna run start",
     "web:build": "lerna run --scope cv19-uk-web build",
     "web:dev": "lerna run --scope cv19-uk-web start",
     "web:test": "lerna run --scope cv19-uk-web test",
