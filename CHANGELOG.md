@@ -3,6 +3,25 @@
 This is a list of changes applied to the [CV19-UK-Timeline](https://cv19uk.planxdesign.eu)
 project. The changelog is following [Semantic Verisoning](https://semver.org/)
 
+## [1.1.3] (2020-06-04)
+
+### Changed
+
+* license from GPL3 to MIT
+* rewrite the README following tips from https://dev.to/sylwiavargas/recipe-for-a-good-readme-3m6j
+
+## [1.1.2] (2020-06-04)
+
+### Removed
+
+* cleaned up unnecessary package-lock.json files - we use Yarn
+
+## [1.1.1] (2020-06-04)
+
+### Security
+
+* Upgrades the dependencies of the @sanity/core project
+
 ## [1.1.0] (2020-06-04)
 
 ### Changed
